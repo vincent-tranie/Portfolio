@@ -421,13 +421,13 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills {
-  background: black;
+  background: #272829;
 }
 
 .skills .progress {
   height: 60px;
   display: block;
-  background: black;
+  background: none;
   border-radius: 0;
 }
 
