@@ -82,35 +82,75 @@
       <div class="container">
 
         <div class="row gy-4">
-            <h2 class="mb-5">Projet hub (SFTP)</h2>
-                            <h4 class="text-primary">Comment est né le projet Sang pour Cent ?</h4>  
-                            <p>Sang pour Cent est un projet qui a vu le jour dans le cadre de la formation PFH (première année) : organisation d'événements. Il s'agit de la deuxième édition d'une collecte de sang organisée en partenariat avec l'Etablissement Français du Sang (EFS). En revanche, c’est la première édition d’une collecte de sang dans les locaux de l’école ESIEA. 
-                            </p>
-                            <h4 class="text-primary">Sang pour Cent c’est quoi ?</h4>
-                            <p>Sang pour Cent consiste en une organisation d'une collecte de sang en partenariat avec l'Etablissement Français du Sang. Les objectifs du projet étaient d'organiser l'événement, de réaliser des divertissements et attractions le jour de la collecte, de mettre en place un plan de communication efficace et d'avoir un budget suffisant. L'objectif final était d'avoir plus de 100 participants pour sauver 300 vies.  
+            <h2 class="mb-5">Nom de code : Hub</h2>
+                            <h4 class="text-primary">Comment est né le projet hub ?</h4>  
+                            <p>Lors de mon stage de 6 mois de fin de troisième année, l’entreprise dans laquelle je travaillais avait besoin de créer une plateforme pour sécuriser le transfert de fichiers entre nos serveurs mais aussi pour nos clients.</p>
+                            <p>Elle m’a demandé de réaliser un projet qui avait pour nom de code : hub.</p>
+                            <h4 class="text-primary">En quoi consiste le Projet Hub ?</h4>
+                            <p>Le principe du projet Hub consiste en la création et la mise en place d’une plateforme sécurisée et automatisée qui sera utilisée pour le transfert de fichiers de notre entreprise et de nos clients. Cette plateforme permet, par exemple, le transfert des factures comptables entre différents serveurs.
                             </p>
                             <p>
-                              Le projet était structuré en plusieurs étapes : prise de contact avec l'EFS, établissement d'un partenariat, choix de la date de la journée, plan de communication en trois étapes, budget, préparation pour la journée, et la journée de l'événement. Les acteurs clés de ce projet étaient l'EFS et l'équipe Sang pour Cent, qui comptait 4 membres.
+                              Pour répondre à cette demande, j’ai mis en place un serveur de fichier (serveur SFTP).
                             </p>
-                            <h4 class="text-primary">L’enjeux et le risque ?</h4>
-                            <P>                            
-                              Les enjeux de ce projet étaient nombreux, notamment la création d'un planning avec l'EFS, la réservation d'une salle pour l'événement (selon les critères de l’EFS), la participation d'un nombre suffisant de personnes, la capacité à accueillir l'EFS pour l'événement, et l'obtention d'un budget pour l'événement. Le principal objectif était de sauver 300 vies grâce à cette collecte de sang.
-                            </P>
+                            <h4 class="text-primary">Quel est l'enjeu du projet ?</h4>
                             <p>
-                              Malgré les risques qui ont été identifiés, tels que l'annulation de l'événement en raison de l'absence de l'EFS, un manque de participants, un budget insuffisant, une communication ratée ou des conditions d'accueil impossibles pour l'EFS, le projet a finalement abouti avec succès.
+                              L’enjeu était de créer un serveur de fichiers fiable et sécurisé dans notre entreprise sachant que celui-ci devait être utilisé aussi bien par mon entreprise que par nos clients.
                             </p>
-                            <h4 class="text-primary">Les résultats :</h4>
+                            <p>A titre personnel, ce projet devait :
+                                <li>  me faire découvrir, dans la pratique, ces notions (protocole SFTP et la mise en place d’un serveur de fichier) que j’avais pu évoquer en cours ;</li>
+                                <li>  me permettre de concevoir un projet de bout en bout et de le réaliser en autonomie.</li>
+                            </p>
+                            <h4 class="text-primary">Quels étaient les risques ?</h4>
                             <p>
-                              Les résultats ont été très positifs, avec 92 personnes qui ont donné leur sang soit 276 vies sauvées et plus de 130 participants en tout. Nous avons dû refuser des personnes car il y avait trop de monde.
+                              Les risques liés à l’utilisation de la plateforme étaient les suivants :
+                              <li>que le serveur de fichier soit mal sécurisé. Ce qui peut engendrer une vulnérabilité à des attaques ;</li>
+                              <li>que le serveur soit indisponible suite à des problèmes réseaux ou de mauvaise configuration ;</li>
+                              <li>que des problèmes interviennent lors du transfert des fichiers qui peut potentiellement empêcher la récupération de données.</li>
                             </p>
-                            <h4 class="text-primary">Mon point de vue sur le projet Sang pour Cent :</h4>
+                            <h4 class="text-primary">Quels étaient les objectifs ?</h4>
                             <p>
-                              C’est une expérience réussie humainement et professionnellement même si elle a parfois été difficile à gérer en interne (nous avons dû faire des rushes car nous avions une deadline très courte). 
-<br>J'ai pu toucher à tous les aspects (communication, gestion, budget, etc.). J'ai également pu consolider mes compétences en matière d'adaptation, de gestion d'équipe et de communication. 
-<br>Je suis fier de ce projet et des vies sauvées.
-J'ai plein d'idées d'amélioration si l’on devait refaire le même type d'événement. 
+                              La réalisation de ce projet comportait plusieurs objectifs :
+                              <li>la mise en place de la plateforme de fichier et de transfert ;</li>
+                              <li>la sécurisation de cette plateforme ;</li>
+                              <li>l’automatisation des transferts entre les serveurs.</li>
                             </p>
-                            <br>
+                            <h4 class="text-primary">Quelles étaient les étapes ?</h4>
+                            <p>
+                              Lorsque le projet a été lancé, j’ai dû d’abord me documenter sur la façon de mettre en place une plateforme de transfert de fichier. La solution qui répondait au mieux à nos attentes était la suivante : la mise en place d’un serveur SFTP (de la marque Synology car il est rapide et efficace).
+                            </p>
+                            <p>
+                              Pour le sécuriser au maximum, j’ai dû effectuer des recherches complémentaires. Ce qui m’a conduit à toucher aux réseaux. Par exemple, j’ai été conduit à mettre en place une règle interdisant à tout le monde d’accéder à cette plateforme sauf pour certains serveurs (IP publiques = identité sur internet) que l’on a défini au préalable.
+                            </p>
+                            <p>
+                              Pour le bon fonctionnement et la pérennité de la plateforme, j’ai créé un template pour la création des clients afin de garder la même structure des fichiers (arborescence) partout.
+                            </p>
+                            <p>
+                              Pour ce qui est de l’automatisation, selon les conditions et demandes des clients, j’ai créé un script pour permettre le transfert de fichier entre les serveurs.
+                            </p>
+                            <h4 class="text-primary">Quels étaient les acteurs ?</h4>
+                              <p>
+                                J’ai réalisé la création et la mise en place du serveur de fichier en autonomie. L'initiative du projet était un client. Le directeur technique est venu me demander de mettre en place un serveur de fichier.
+                              </p>
+                            <h4 class="text-primary">Quels sont les résultats du projet hub?</h4>
+                            <p>
+                              La plateforme a été livrée en 2 jours et sécurisée en une journée.<br><br>
+                              Aujourd’hui, la plateforme de transfert de fichier est toujours en fonctionnement. Elle permet même le transfert d’un certain nombre de fichiers de comptabilité notamment pour notre entreprise comme pour le client. Cette solution est désormais commercialisée par mon entreprise.
+
+                            </p>
+                            <h4 class="text-primary">Le lendemain du projet ?</h4>
+                            <p>
+                              Cette plateforme ne fait que grandir actuellement grâce aux demandes des clients. Je fournis l’accès à cette plateforme et si le client demande, il m’arrive de faire les scripts d’automatisation pour le transfert de fichier.
+                            </p>
+                            <h4 class="text-primary">Mon regard critique :</h4>
+                              <p>
+                                Le projet Hub m’a permis : 
+                                <li>de pouvoir réaliser un projet de A à Z en autonomie et en passant par toutes les étapes (conception, réalisation, sécurisation, documentation). J’ai pu commencer rapidement grâce à mes bonnes connaissances des systèmes Linux ;</li>
+                                <li>d’apprendre à sécuriser un serveur notamment un serveur de fichier par le filtrage que l’on peut faire pour donner l’accès à celui-ci (IP Publiques).</li>
+                              </p>
+                              <p>
+                                Sur le plan technique, j’ai pu prendre en main la notion de transfert de fichier (avec le protocole SFTP). L’automatisation passe par des scripts (en Bash et PowerShell). 
+                              </p>
+
       </div>
       </div>
     </section><!-- End Portfolio Details Section -->
